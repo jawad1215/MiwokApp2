@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:onClick="openNumbersList"
+        android:text="@string/category_numbers"
+        />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/category_family"
+        android:onClick="openFamilyList"
+        />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="@string/category_colors"
+        android:onClick="openColorList"
+        />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/category_phrases"
+        android:onClick="openPhraseList"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chickme"
+        android:text="Click Me"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+
+</LinearLayout>
